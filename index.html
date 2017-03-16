@@ -4,17 +4,23 @@
     <head>
        <link rel="stylesheet" href="css/bootstrap.css">
        <link rel="stylesheet" type="text/css" href="css/main.css">
-
-
     </head>
 
     <body>
-       <!-- includes jquery cdn bootstrap js -->
-       <!-- <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script> -->
-       <!-- Latest compiled and minified JavaScript CDN BOOTSTRAP JS-->
-       <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
-       <div class="container">
-        <div class="row">
+       <h1>To Do List</h1>
+       <!-- creates the form for the input -->
+       <form id="TodoForm">
+         <!-- Creates the input -->
+         <input id="todoInput">
+         <!-- button that does not refresh the page -->
+         <button type="button" onclick="Todolist()">Add Item</button>
+       </form>
+       <!-- Ordered list with the id for the todolist -->
+       <ol id="todoList">
+
+       </ol>
+
+
 
        <script src="js/bootstrap.min.js"></script>
        <script src="js/bootstrap.js"></script>
